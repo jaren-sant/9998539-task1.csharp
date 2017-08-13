@@ -28,6 +28,9 @@ namespace _9998539_task1.csharp
             else{
                 Console.WriteLine("The value you have entered is not a number, please enter a number next time.");
             }
+            Console.WriteLine("Press any key to exit");
+            Console.ReadKey();
+            Console.Clear();
         }
     }
 }
